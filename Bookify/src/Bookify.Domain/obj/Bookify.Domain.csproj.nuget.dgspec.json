@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\rafael.goncalves\\source\\repos\\Bookify\\Bookify\\src\\Bookify.Domain\\Bookify.Domain.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\rafael.goncalves\\source\\repos\\Bookify\\Bookify\\src\\Bookify.Domain\\Bookify.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rafael.goncalves\\source\\repos\\Bookify\\Bookify\\src\\Bookify.Domain\\Bookify.Domain.csproj",
+        "projectName": "Bookify.Domain",
+        "projectPath": "C:\\Users\\rafael.goncalves\\source\\repos\\Bookify\\Bookify\\src\\Bookify.Domain\\Bookify.Domain.csproj",
+        "packagesPath": "C:\\Users\\rafael.goncalves\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rafael.goncalves\\source\\repos\\Bookify\\Bookify\\src\\Bookify.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rafael.goncalves\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/bk-bank/TI/_packaging/bkbank-oficial/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MediatR.Contracts": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
